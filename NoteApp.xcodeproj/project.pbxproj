@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E1A24501EC4C01300C28900 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A244F1EC4C01300C28900 /* HomeViewController.m */; };
+		0ED6A5791EC9FE90007A275D /* FixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED6A5781EC9FE90007A275D /* FixViewController.m */; };
+		250892C21E777ED80051C216 /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 250892C11E777ED80051C216 /* Note.m */; };
+		250892C81E77C4F00051C216 /* NoteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 250892C71E77C4F00051C216 /* NoteCell.m */; };
+		250892CB1E77D8220051C216 /* NoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 250892CA1E77D8220051C216 /* NoteViewController.m */; };
+		251BAD691E80BA6C00C21F02 /* NoteModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 251BAD671E80BA6C00C21F02 /* NoteModel.xcdatamodeld */; };
+		251BAD6C1E80BF7F00C21F02 /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 251BAD6B1E80BF7F00C21F02 /* CoreDataHelper.m */; };
+		2529C8901EADDED900713624 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2529C8921EADDED900713624 /* InfoPlist.strings */; };
+		2529C8961EADE24B00713624 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2529C8981EADE24B00713624 /* Localizable.strings */; };
+		2540A7EC1EB2EEA8006FCB92 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2540A7EB1EB2EEA7006FCB92 /* GoogleService-Info.plist */; };
+		256299F11EA4AA850022A680 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 256299F01EA4AA850022A680 /* Reachability.m */; };
+		25DEFF9B1ECB1D9A0033590B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25DEFF9A1ECB1D9A0033590B /* MapKit.framework */; };
+		25DEFF9D1ECB1DA80033590B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25DEFF9C1ECB1DA80033590B /* CoreLocation.framework */; };
+		4CF6C012D72C5FCD093B0EE2 /* Pods_NoteApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9E72F32D1F4863702AF1B2E /* Pods_NoteApp.framework */; };
+		BF5902E01E768A64000726D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5902DF1E768A64000726D0 /* main.m */; };
+		BF5902E31E768A64000726D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5902E21E768A64000726D0 /* AppDelegate.m */; };
+		BF5902E91E768A64000726D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5902E71E768A64000726D0 /* Main.storyboard */; };
+		BF5902EB1E768A64000726D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5902EA1E768A64000726D0 /* Assets.xcassets */; };
+		BF5902EE1E768A64000726D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5902EC1E768A64000726D0 /* LaunchScreen.storyboard */; };
+		BF5902F71E768B54000726D0 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5902F61E768B54000726D0 /* ListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E1A244E1EC4C01300C28900 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		0E1A244F1EC4C01300C28900 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		0ED6A5771EC9FE90007A275D /* FixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixViewController.h; sourceTree = "<group>"; };
+		0ED6A5781EC9FE90007A275D /* FixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixViewController.m; sourceTree = "<group>"; };
+		250892C01E777ED80051C216 /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		250892C11E777ED80051C216 /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		250892C61E77C4F00051C216 /* NoteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteCell.h; sourceTree = "<group>"; };
+		250892C71E77C4F00051C216 /* NoteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteCell.m; sourceTree = "<group>"; };
+		250892C91E77D8220051C216 /* NoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteViewController.h; sourceTree = "<group>"; };
+		250892CA1E77D8220051C216 /* NoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteViewController.m; sourceTree = "<group>"; };
+		250E10571E80D85E004CF684 /* NoteModel 2.0.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "NoteModel 2.0.xcdatamodel"; sourceTree = "<group>"; };
+		251BAD681E80BA6C00C21F02 /* NoteModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NoteModel.xcdatamodel; sourceTree = "<group>"; };
+		251BAD6A1E80BF7F00C21F02 /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHelper.h; sourceTree = "<group>"; };
+		251BAD6B1E80BF7F00C21F02 /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelper.m; sourceTree = "<group>"; };
+		2529C8861EADDAC900713624 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		2529C8871EADDAC900713624 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		2529C8911EADDED900713624 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2529C8931EADDEDB00713624 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		2529C8971EADE24B00713624 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2529C8991EADE25200713624 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		2540A7EB1EB2EEA7006FCB92 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		256299EF1EA4AA850022A680 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		256299F01EA4AA850022A680 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		25DEFF9A1ECB1D9A0033590B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		25DEFF9C1ECB1DA80033590B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		33D8056E0E1F4BA851BFFFEC /* Pods-NoteApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoteApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NoteApp/Pods-NoteApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B9E72F32D1F4863702AF1B2E /* Pods_NoteApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoteApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5902DB1E768A64000726D0 /* NoteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5902DF1E768A64000726D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF5902E11E768A64000726D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF5902E21E768A64000726D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF5902E81E768A64000726D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF5902EA1E768A64000726D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF5902ED1E768A64000726D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF5902EF1E768A64000726D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF5902F51E768B54000726D0 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		BF5902F61E768B54000726D0 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		D436D88FA746BA5174D1282B /* Pods-NoteApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoteApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-NoteApp/Pods-NoteApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF5902D81E768A64000726D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DEFF9D1ECB1DA80033590B /* CoreLocation.framework in Frameworks */,
+				25DEFF9B1ECB1D9A0033590B /* MapKit.framework in Frameworks */,
+				4CF6C012D72C5FCD093B0EE2 /* Pods_NoteApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		256299EE1EA4AA660022A680 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				256299EF1EA4AA850022A680 /* Reachability.h */,
+				256299F01EA4AA850022A680 /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		BF5902D21E768A64000726D0 = {
+			isa = PBXGroup;
+			children = (
+				256299EE1EA4AA660022A680 /* Reachability */,
+				BF5902DD1E768A64000726D0 /* NoteApp */,
+				BF5902DC1E768A64000726D0 /* Products */,
+				D637DC63F794DF9A73ADDD40 /* Pods */,
+				D04D81D9F3160D7F0AF28D46 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF5902DC1E768A64000726D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF5902DB1E768A64000726D0 /* NoteApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF5902DD1E768A64000726D0 /* NoteApp */ = {
+			isa = PBXGroup;
+			children = (
+				251BAD6A1E80BF7F00C21F02 /* CoreDataHelper.h */,
+				251BAD6B1E80BF7F00C21F02 /* CoreDataHelper.m */,
+				BF5902E11E768A64000726D0 /* AppDelegate.h */,
+				BF5902E21E768A64000726D0 /* AppDelegate.m */,
+				BF5902F51E768B54000726D0 /* ListViewController.h */,
+				BF5902F61E768B54000726D0 /* ListViewController.m */,
+				250892C11E777ED80051C216 /* Note.m */,
+				250892C61E77C4F00051C216 /* NoteCell.h */,
+				250892C71E77C4F00051C216 /* NoteCell.m */,
+				250892C91E77D8220051C216 /* NoteViewController.h */,
+				250892CA1E77D8220051C216 /* NoteViewController.m */,
+				BF5902E71E768A64000726D0 /* Main.storyboard */,
+				BF5902EA1E768A64000726D0 /* Assets.xcassets */,
+				BF5902EC1E768A64000726D0 /* LaunchScreen.storyboard */,
+				BF5902EF1E768A64000726D0 /* Info.plist */,
+				BF5902DE1E768A64000726D0 /* Supporting Files */,
+				250892C01E777ED80051C216 /* Note.h */,
+				0ED6A5771EC9FE90007A275D /* FixViewController.h */,
+				0ED6A5781EC9FE90007A275D /* FixViewController.m */,
+				0E1A244E1EC4C01300C28900 /* HomeViewController.h */,
+				0E1A244F1EC4C01300C28900 /* HomeViewController.m */,
+			);
+			path = NoteApp;
+			sourceTree = "<group>";
+		};
+		BF5902DE1E768A64000726D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2540A7EB1EB2EEA7006FCB92 /* GoogleService-Info.plist */,
+				BF5902DF1E768A64000726D0 /* main.m */,
+				251BAD671E80BA6C00C21F02 /* NoteModel.xcdatamodeld */,
+				2529C8921EADDED900713624 /* InfoPlist.strings */,
+				2529C8981EADE24B00713624 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D04D81D9F3160D7F0AF28D46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25DEFF9C1ECB1DA80033590B /* CoreLocation.framework */,
+				25DEFF9A1ECB1D9A0033590B /* MapKit.framework */,
+				B9E72F32D1F4863702AF1B2E /* Pods_NoteApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D637DC63F794DF9A73ADDD40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				33D8056E0E1F4BA851BFFFEC /* Pods-NoteApp.debug.xcconfig */,
+				D436D88FA746BA5174D1282B /* Pods-NoteApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF5902DA1E768A64000726D0 /* NoteApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5902F21E768A64000726D0 /* Build configuration list for PBXNativeTarget "NoteApp" */;
+			buildPhases = (
+				81703DA5BE23D131E7CE4AF5 /* [CP] Check Pods Manifest.lock */,
+				BF5902D71E768A64000726D0 /* Sources */,
+				BF5902D81E768A64000726D0 /* Frameworks */,
+				BF5902D91E768A64000726D0 /* Resources */,
+				0816A9A69485B3D1B558C260 /* [CP] Embed Pods Frameworks */,
+				9E32598E10A42E45534C5304 /* [CP] Copy Pods Resources */,
+				2540A7EA1EB2D2F5006FCB92 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoteApp;
+			productName = NoteApp;
+			productReference = BF5902DB1E768A64000726D0 /* NoteApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF5902D31E768A64000726D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Vincent;
+				TargetAttributes = {
+					BF5902DA1E768A64000726D0 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GHPYTPWPDC;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BF5902D61E768A64000726D0 /* Build configuration list for PBXProject "NoteApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hant",
+			);
+			mainGroup = BF5902D21E768A64000726D0;
+			productRefGroup = BF5902DC1E768A64000726D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF5902DA1E768A64000726D0 /* NoteApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF5902D91E768A64000726D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2529C8961EADE24B00713624 /* Localizable.strings in Resources */,
+				BF5902EE1E768A64000726D0 /* LaunchScreen.storyboard in Resources */,
+				2529C8901EADDED900713624 /* InfoPlist.strings in Resources */,
+				BF5902EB1E768A64000726D0 /* Assets.xcassets in Resources */,
+				BF5902E91E768A64000726D0 /* Main.storyboard in Resources */,
+				2540A7EC1EB2EEA8006FCB92 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0816A9A69485B3D1B558C260 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NoteApp/Pods-NoteApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2540A7EA1EB2D2F5006FCB92 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 873b2871f695716de2f3c419e895ce686ce0f84b 2588a5e3350a0a705436eb4576a834b9097b5725e365649b9c8c75d2d55a396d";
+		};
+		81703DA5BE23D131E7CE4AF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9E32598E10A42E45534C5304 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NoteApp/Pods-NoteApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF5902D71E768A64000726D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250892C81E77C4F00051C216 /* NoteCell.m in Sources */,
+				BF5902E31E768A64000726D0 /* AppDelegate.m in Sources */,
+				251BAD691E80BA6C00C21F02 /* NoteModel.xcdatamodeld in Sources */,
+				0E1A24501EC4C01300C28900 /* HomeViewController.m in Sources */,
+				0ED6A5791EC9FE90007A275D /* FixViewController.m in Sources */,
+				BF5902F71E768B54000726D0 /* ListViewController.m in Sources */,
+				BF5902E01E768A64000726D0 /* main.m in Sources */,
+				250892CB1E77D8220051C216 /* NoteViewController.m in Sources */,
+				251BAD6C1E80BF7F00C21F02 /* CoreDataHelper.m in Sources */,
+				256299F11EA4AA850022A680 /* Reachability.m in Sources */,
+				250892C21E777ED80051C216 /* Note.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2529C8921EADDED900713624 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2529C8911EADDED900713624 /* en */,
+				2529C8931EADDEDB00713624 /* zh-Hant */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2529C8981EADE24B00713624 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2529C8971EADE24B00713624 /* en */,
+				2529C8991EADE25200713624 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		BF5902E71E768A64000726D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF5902E81E768A64000726D0 /* Base */,
+				2529C8861EADDAC900713624 /* zh-Hant */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF5902EC1E768A64000726D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF5902ED1E768A64000726D0 /* Base */,
+				2529C8871EADDAC900713624 /* zh-Hant */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF5902F01E768A64000726D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF5902F11E768A64000726D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF5902F31E768A64000726D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33D8056E0E1F4BA851BFFFEC /* Pods-NoteApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = GHPYTPWPDC;
+				INFOPLIST_FILE = NoteApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.iiedu.NoteApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF5902F41E768A64000726D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D436D88FA746BA5174D1282B /* Pods-NoteApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GHPYTPWPDC;
+				INFOPLIST_FILE = NoteApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.iiedu.NoteApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF5902D61E768A64000726D0 /* Build configuration list for PBXProject "NoteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5902F01E768A64000726D0 /* Debug */,
+				BF5902F11E768A64000726D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF5902F21E768A64000726D0 /* Build configuration list for PBXNativeTarget "NoteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5902F31E768A64000726D0 /* Debug */,
+				BF5902F41E768A64000726D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		251BAD671E80BA6C00C21F02 /* NoteModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				250E10571E80D85E004CF684 /* NoteModel 2.0.xcdatamodel */,
+				251BAD681E80BA6C00C21F02 /* NoteModel.xcdatamodel */,
+			);
+			currentVersion = 250E10571E80D85E004CF684 /* NoteModel 2.0.xcdatamodel */;
+			path = NoteModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF5902D31E768A64000726D0 /* Project object */;
+}

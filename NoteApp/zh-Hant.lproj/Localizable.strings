@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  NoteApp
+
+  Created by user33 on 2017/4/24.
+  Copyright © 2017年 Vincent. All rights reserved.
+*/
+"new.note"="新記事";
+"cancel"="取消";
