@@ -1,11 +1,4 @@
-//
-//  ListViewController.m
-//  NoteApp
-//
-//  Created by Vincent on 2017/3/13.
-//  Copyright © 2017年 Vincent. All rights reserved.
-//
-
+// 客戶資料第一頁
 #import "ListViewController.h"
 #import "Note.h"
 #import "NoteCell.h"//下午#5
